@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Dating quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Celebrity Dating Quiz</h1>
+    <p>To give you a best match, we need to know a little about you:</p>
+
+    <form id="info">
+        <label for="name">Name:</label>
+        <input id="name" type="text">
+        <br>
+        <label for="gender">Gender:</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <br>
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+        <br>
+        <label for="personality">What is your personality</label>
+          <select id="personality">
+            <option value="1">Mellow</option>
+            <option value="2">Short tempered</option>
+            <option value="3">Optimistic</option>
+            <option value="4">Cynical</option>
+          </select>
+          <br>
+          <label for="favColor">What's your favorite color?</label>
+          <select id="favColor">
+            <option value="1">Red</option>
+            <option value="2">Blue</option>
+            <option value="3">Yellow</option>
+            <option value="4">Green</option>
+          </select>  
+          
+          <button type="submit" class="btn">Calculate my match!</button>
+    </form>
+    <div id="brad">
+     <p>Your ideal celebrity partner is: Brad Pitt</p>
+     <img src="img/celebrity1.jpg" alt="celebrity">
+    </div>
+    <div id="angelina">
+      <p>Your ideal celebrity partner is: Angelina Jolie</p>
+      <img src="img/celebrity2.jpg" alt="celebrity">
+    </div>
+    <div id="duke">
+      <p>Your ideal celebrity partner is: Duke Harry</p>
+      <img src="img/celebrity3.jpg" alt="celebrity">
+    </div>
+    <div id="duchess">
+      <p>Your ideal celebrity partner is: Duchess Meghan</p>
+      <img src="img/celebrity4.jpg" alt="celebrity">
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- Create a celebrity dating webpage, where you enter information about yourself (1.name, 2.DOB, 3.gender, 4.personality, 5.favColor), and the page suggests which celebrity, fictional character, or public figure you would be most compatible with. -->
+
+
+<!-- At the your-match section how to match celebrity text with celebrity image? -->
